@@ -4,10 +4,11 @@ Super Simple Role to install Java Development 8 kit in linux.
 Role Variables
 --------------
 ```
-java_download_url: http://download.oracle.com/otn-pub/java/jdk/8u151-b12/e758a0de34e24606bca991d704f6dcbf/jdk-8u151-linux-x64.tar.gz
-java_archive_name: jdk-8u151-linux-x64.tar.gz
-java_root_dir: /usr/share/java-1.8.0
-java_jdk_dir: "{{ java_root_dir }}/jdk1.8.0_151"
+Tools:
+  - java-common
+  - oracle-java8-installer
+  - ca-certificates
+  - oracle-java8-set-default
 ```
 
 Example Playbook
