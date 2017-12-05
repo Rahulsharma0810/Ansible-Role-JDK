@@ -7,7 +7,7 @@ galaxy_info:
   platforms:
     - name: Debain
       versions:
-      - all
+      - trusty
   galaxy_tags:
     - java
     - java_8

@@ -4,7 +4,6 @@
     apt: "name={{ item }} state=present update_cache=yes"
     with_items:
       - software-properties-common
-      - python-software-properties
 
   - name: Add ppa:webupd8team/java repository.
     apt_repository:
